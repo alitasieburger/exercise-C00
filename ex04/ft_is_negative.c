@@ -6,15 +6,15 @@
 /*   By: asieburg <asieburg@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/11 02:07:44 by asieburg          #+#    #+#             */
-/*   Updated: 2022/02/11 02:48:22 by asieburg         ###   ########.fr       */
+/*   Updated: 2022/02/16 00:00:49 by asieburg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include	<unistd.h>
 
-void ft_is_negative(int n);
+void	ft_is_negative(int n);
 
-void ft_is_negative(int n)
+void	ft_is_negative(int n)
 {
 	char	pos_neg;
 
@@ -24,7 +24,7 @@ void ft_is_negative(int n)
 		write(1, &pos_neg, 1);
 	}
 	else
-	{ 
+	{
 		pos_neg = 'N';
 		write(1, &pos_neg, 1);
 	}

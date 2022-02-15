@@ -6,13 +6,14 @@
 /*   By: asieburg <asieburg@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/08 15:19:47 by asieburg          #+#    #+#             */
-/*   Updated: 2022/02/11 00:46:32 by asieburg         ###   ########.fr       */
+/*   Updated: 2022/02/15 22:28:19 by asieburg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include	<unistd.h>
 
 void	ft_putchar(char c);
+
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
